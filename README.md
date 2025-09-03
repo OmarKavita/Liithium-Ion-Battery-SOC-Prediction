@@ -13,7 +13,6 @@ This project analyzes the Oxford Battery Degradation Dataset using various machi
 - [Model Training](#model-training)
 - [Hyperparameter Tuning](#hyperparameter-tuning)
 - [Model Evaluation](#model-evaluation)
-- [Deployment Plan](#deployment-plan)
 
 ## Introduction
 
@@ -53,9 +52,9 @@ Exploratory Data Analysis (EDA) is performed to understand the underlying patter
 
 ### EDA Images
 
-![Exploratory Data Analysis 1](images/image1.png)
-![Exploratory Data Analysis 2](images/image2.png)
-![Exploratory Data Analysis 3](images/image3.png)
+![Exploratory Data Analysis 1](https://github.com/OmarKavita/Liithium-Ion-Battery-SOC-Prediction/blob/main/Images/image1.png)
+![Exploratory Data Analysis 2](https://github.com/OmarKavita/Liithium-Ion-Battery-SOC-Prediction/blob/main/Images/image2.png)
+![Exploratory Data Analysis 3](https://github.com/OmarKavita/Liithium-Ion-Battery-SOC-Prediction/blob/main/Images/image3.png)
 
 ## Feature Engineering
 
@@ -75,16 +74,7 @@ The final model is evaluated on the test set, and the results are analyzed using
 
 ### Model Prediction
 
-![Model Prediction](images/predictionimage.png)
+![Model Prediction](https://github.com/OmarKavita/Liithium-Ion-Battery-SOC-Prediction/blob/main/Images/predictionimage.png)
 
 
-A theoretical deployment plan is outlined for deploying the model using KServe in a Kubeflow environment. The steps include:
 
-- Setting up training and inference pipelines in Kubeflow
-- Training the model as needed
-- Saving the model to a Persistent Volume Claim (PVC) or an S3 bucket
-- Creating a Docker container to serve the model
-- Deploying the model using KServe
-- Handling prediction requests from the service's endpoint
-
-## Contributing
